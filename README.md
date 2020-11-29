@@ -12,7 +12,7 @@ Gate sequencer by Jean_k<3
 
   TODO :
 
-  SOFTWARE
+  SOFTWARE :
 
   Fonction de choix de la part
   Fonction pause-lecture/stop
@@ -36,7 +36,7 @@ Gate sequencer by Jean_k<3
   Ajout d'un menu deboggage
 
 
-  HARDWARE
+  HARDWARE:
   Ajout du selecteur
   Ajout des encodeurs
   Matrice de boutons
@@ -59,35 +59,35 @@ Gate sequencer by Jean_k<3
 
   FUNCTION :
 
-  Bouttons
+  Bouttons :
     Step on/off (last = selected step) + shift = step jump (1 2 3 jump 5)
     Copy/Paste + shift = Save
     Fill + shift = Clear
     Pause/Play + shift = Stop
 
-   Encoder
+   Encoder:
     Tempo + push = clock divider
       Tempo + shift = Forward/Backward/Random
     Page navigation + push = Number of pages
     Gate size + push = Number of step
 
-   Selecter
+   Selecter :
     Part choice + shift = patern choice
 
   --------------------------------------------------------------------------
 
-  ANALOGUE PIN
+  ANALOGUE PIN :
   1 Selecteur pour les parts
   3 encoder pour le tempo/clock divider, gate/step, page/nombre de page
 
-  DIGITAL PIN
+  DIGITAL PIN :
 
   jack : 12
-    OUTPUT
+    OUTPUT:
       Clock out
       Reset out
       8 Gate out
-      INPUT
+      INPUT :
         Clock in
         Reset in
 
