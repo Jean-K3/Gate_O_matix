@@ -83,12 +83,11 @@ Gate sequencer by Jean_k<3
   DIGITAL PIN
 
   jack : 12
-    output
+    OUTPUT
       Clock out
       Reset out
       8 Gate out
-
-     input
+      INPUT
         Clock in
         Reset in
 
