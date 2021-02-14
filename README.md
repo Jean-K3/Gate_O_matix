@@ -27,6 +27,10 @@
       -12v alimentation
       -"transistorisation" des entrées/sorties
       
+      
+    SCHEMATIC
+    
+      -Check for errors
 
 
   DONE :
