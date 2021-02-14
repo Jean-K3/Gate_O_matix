@@ -110,13 +110,9 @@
     Play mode =
    
         -Forward
-    
         -Backward
-    
         -Ping Pong
-    
         -Random
-    
         -Brownien
     
 
