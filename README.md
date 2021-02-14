@@ -10,69 +10,70 @@
 
   TODO :
 
-  SOFTWARE
+    SOFTWARE
 
-  -Clock multiplier/diviser per part
+      -Clock multiplier/diviser per part
   
-  -Detection Clock interne/externe
+      -Detection Clock interne/externe
   
-  -Reset -> interupt
+      -Reset -> interupt
   
-  -Clock ext -> interupt
+      -Clock ext -> interupt
   
-  -Choix de la paterne (shift + page nav)
+      -Choix de la paterne (shift + page nav)
   
-  -Fonction save/Load (SD card)
+      -Fonction save/Load (SD card)
   
 
-  HARDWARE
+    HARDWARE
 
-  -Add switching jack
+      -Add switching jack
   
-  -Add SD card
+      -Add SD card
   
-  -12v alimentation
+      -12v alimentation
   
-  -"transistorisation" des entrées/sorties
+      -"transistorisation" des entrées/sorties
+      
 
 
   DONE :
 
-  -Encodeur Tempo
+    -Encodeur Tempo
   
-  -Afficheur 7 segments
+    -Afficheur 7 segments
   
-  -Gestion des LEDs
+    -Gestion des LEDs
   
-  -Matrice de boutons
+    -Matrice de boutons
   
-  -Fonction de choix de la part
+    -Fonction de choix de la part
   
-  -Ajout du selecteur
+    -Ajout du selecteur
   
-  -Fonction de choix de la part
+    -Fonction de choix de la part
   
-  -Fonction de gestion du nombre de pas
+    -Fonction de gestion du nombre de pas
   
-  -Fonction Pages navigation
+    -Fonction Pages navigation
   
-  -Step ON-OFF
+    -Step ON-OFF
   
-  -Fonction sens de lecture
+    -Fonction sens de lecture
   
-  -Fonction Fill/Clear
+    -Fonction Fill/Clear
   
-  -Fonction Copy/Past
+    -Fonction Copy/Past
   
-  -Lecture des bouttons de fonctions
+    -Lecture des bouttons de fonctions
   
-  -Fonction pause-lecture/stop
+    -Fonction pause-lecture/stop
   
-  -Fonction de gestion de la taille de la gate
+    -Fonction de gestion de la taille de la gate
   
-  -Fonction Step jump
+    -Fonction Step jump
   
-  -Reset
+    -Reset
   
 
   ________________________________________________________________________________________________
@@ -81,26 +82,42 @@
 
 
   FUNCTIONS :
+  
 
-  Bouttons =
-    -Shift + step button = step jump
-    -Fill + shift = Clear
-    -Copy/Paste + shift = Save
-    -Pause/Play + shift = Stop
+    Bouttons =
+  
+        -Shift + step button = step jump
+    
+        -Fill + shift = Clear
+    
+        -Copy/Paste + shift = Save
+    
+        -Pause/Play + shift = Stop
+    
 
-   Encoders =
-    -Tempo + push = clock divider
-    -Gate length + push = Number of step
-    -Page navigation + push = Forward/Backward/Random
+    Encoders =
+   
+        -Tempo + push = clock divider
+    
+        -Gate length + push = Number of step
+    
+        -Page navigation + push = Forward/Backward/Random
+    
 
-   Selecter =
-    -Part choice
+    Selecter =
+        -Part choice
 
-   Play mode =
-    -Forward
-    -Backward
-    -Ping Pong
-    -Random
-    -Brownien
+    Play mode =
+   
+        -Forward
+    
+        -Backward
+    
+        -Ping Pong
+    
+        -Random
+    
+        -Brownien
+    
 
   --------------------------------------------------------------------------
