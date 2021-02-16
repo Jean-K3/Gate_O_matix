@@ -19,7 +19,7 @@ U 1 1 60019872
 P 4550 2425
 F 0 "U1" H 4550 3206 50  0000 C CNN
 F 1 "74HC595" H 4550 3115 50  0000 C CNN
-F 2 "00_Mes_empreintes:DIP-16_Socket" H 4550 2425 50  0001 C CNN
+F 2 "" H 4550 2425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4550 2425 50  0001 C CNN
 	1    4550 2425
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 6001A2A2
 P 4550 4075
 F 0 "U2" H 4550 4856 50  0000 C CNN
 F 1 "74HC595" H 4550 4765 50  0000 C CNN
-F 2 "00_Mes_empreintes:DIP-16_Socket" H 4550 4075 50  0001 C CNN
+F 2 "" H 4550 4075 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4550 4075 50  0001 C CNN
 	1    4550 4075
 	1    0    0    -1  
@@ -653,7 +653,7 @@ U 1 1 601B3EFF
 P 4550 7200
 F 0 "U3" H 4550 7981 50  0000 C CNN
 F 1 "74HC595" H 4550 7890 50  0000 C CNN
-F 2 "00_Mes_empreintes:DIP-16_Socket" H 4550 7200 50  0001 C CNN
+F 2 "" H 4550 7200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4550 7200 50  0001 C CNN
 	1    4550 7200
 	1    0    0    -1  
@@ -664,7 +664,7 @@ U 1 1 601B3F05
 P 4550 8850
 F 0 "U4" H 4550 9631 50  0000 C CNN
 F 1 "74HC595" H 4550 9540 50  0000 C CNN
-F 2 "00_Mes_empreintes:DIP-16_Socket" H 4550 8850 50  0001 C CNN
+F 2 "" H 4550 8850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4550 8850 50  0001 C CNN
 	1    4550 8850
 	1    0    0    -1  
@@ -2124,7 +2124,7 @@ U 1 1 60813CD7
 P 10350 7950
 F 0 "J1" H 10400 8467 50  0000 C CNN
 F 1 "Data" H 10400 8376 50  0000 C CNN
-F 2 "00_Mes_empreintes:IDC-Header_2x08" H 10350 7950 50  0001 C CNN
+F 2 "" H 10350 7950 50  0001 C CNN
 F 3 "~" H 10350 7950 50  0001 C CNN
 	1    10350 7950
 	1    0    0    -1  
@@ -2135,7 +2135,7 @@ U 1 1 6081584A
 P 10375 8825
 F 0 "J2" H 10293 8500 50  0000 C CNN
 F 1 "Power" H 10293 8591 50  0000 C CNN
-F 2 "00_Mes_empreintes:SolderWirePad_1x02_Drill1.5mm" H 10375 8825 50  0001 C CNN
+F 2 "" H 10375 8825 50  0001 C CNN
 F 3 "~" H 10375 8825 50  0001 C CNN
 	1    10375 8825
 	-1   0    0    1   
