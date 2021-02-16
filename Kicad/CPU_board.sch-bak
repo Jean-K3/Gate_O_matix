@@ -14,6 +14,421 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 6084AC73
+P 2450 1825
+F 0 "SW1" H 2450 2192 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 2600 2075 50  0000 C CNN
+F 2 "" H 2300 1985 50  0001 C CNN
+F 3 "~" H 2450 2085 50  0001 C CNN
+	1    2450 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 00_Mes_symboles:7_segment_3_digit_2831AS-7_segments U1
+U 1 1 6085E9B6
+P 7100 4600
+F 0 "U1" H 7350 5165 50  0000 C CNN
+F 1 "7_segment_3_digit_2831AS" H 7350 5074 50  0000 C CNN
+F 2 "Display_7Segment_3digit" H 7450 4100 50  0001 C CNN
+F 3 "" H 7100 4650 50  0001 C CNN
+	1    7100 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 1725 2    50   Input ~ 0
+ecdr_sw_1
+Wire Wire Line
+	2900 1725 2750 1725
+$Comp
+L power:GND #PWR07
+U 1 1 6086C452
+P 2900 1925
+F 0 "#PWR07" H 2900 1675 50  0001 C CNN
+F 1 "GND" V 2905 1797 50  0000 R CNN
+F 2 "" H 2900 1925 50  0001 C CNN
+F 3 "" H 2900 1925 50  0001 C CNN
+	1    2900 1925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 1925 2750 1925
+$Comp
+L power:GND #PWR02
+U 1 1 6086C9AC
+P 2050 1825
+F 0 "#PWR02" H 2050 1575 50  0001 C CNN
+F 1 "GND" V 2055 1697 50  0000 R CNN
+F 2 "" H 2050 1825 50  0001 C CNN
+F 3 "" H 2050 1825 50  0001 C CNN
+	1    2050 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 1825 2150 1825
+$Comp
+L power:+5V #PWR01
+U 1 1 6086D054
+P 1400 1825
+F 0 "#PWR01" H 1400 1675 50  0001 C CNN
+F 1 "+5V" V 1415 1953 50  0000 L CNN
+F 2 "" H 1400 1825 50  0001 C CNN
+F 3 "" H 1400 1825 50  0001 C CNN
+	1    1400 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60875A18
+P 1650 1925
+F 0 "R4" V 1750 2025 50  0000 C CNN
+F 1 "R 50k" V 1750 1825 50  0000 C CNN
+F 2 "" V 1580 1925 50  0001 C CNN
+F 3 "~" H 1650 1925 50  0001 C CNN
+	1    1650 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6086B5BC
+P 1650 1725
+F 0 "R1" V 1550 1825 50  0000 C CNN
+F 1 "R 50k" V 1550 1625 50  0000 C CNN
+F 2 "" V 1580 1725 50  0001 C CNN
+F 3 "~" H 1650 1725 50  0001 C CNN
+	1    1650 1725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 1925 1800 1925
+Wire Wire Line
+	2150 1725 1800 1725
+Wire Wire Line
+	1500 1725 1500 1825
+Wire Wire Line
+	1400 1825 1500 1825
+Connection ~ 1500 1825
+Wire Wire Line
+	1500 1825 1500 1925
+Text GLabel 2900 1275 2    50   Input ~ 0
+ecdr_clock_1
+Text GLabel 2900 2275 2    50   Input ~ 0
+ecdr_data_1
+Wire Wire Line
+	2150 1925 2150 2275
+Wire Wire Line
+	2150 2275 2900 2275
+Connection ~ 2150 1925
+Wire Wire Line
+	2900 1275 2150 1275
+Wire Wire Line
+	2150 1275 2150 1725
+Connection ~ 2150 1725
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 60889EAC
+P 4800 1825
+F 0 "SW2" H 4800 2192 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 4950 2075 50  0000 C CNN
+F 2 "" H 4650 1985 50  0001 C CNN
+F 3 "~" H 4800 2085 50  0001 C CNN
+	1    4800 1825
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 1725 2    50   Input ~ 0
+ecdr_sw_2
+Wire Wire Line
+	5250 1725 5100 1725
+$Comp
+L power:GND #PWR08
+U 1 1 60889EB4
+P 5250 1925
+F 0 "#PWR08" H 5250 1675 50  0001 C CNN
+F 1 "GND" V 5255 1797 50  0000 R CNN
+F 2 "" H 5250 1925 50  0001 C CNN
+F 3 "" H 5250 1925 50  0001 C CNN
+	1    5250 1925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 1925 5100 1925
+$Comp
+L power:GND #PWR04
+U 1 1 60889EBB
+P 4400 1825
+F 0 "#PWR04" H 4400 1575 50  0001 C CNN
+F 1 "GND" V 4405 1697 50  0000 R CNN
+F 2 "" H 4400 1825 50  0001 C CNN
+F 3 "" H 4400 1825 50  0001 C CNN
+	1    4400 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1825 4500 1825
+$Comp
+L power:+5V #PWR03
+U 1 1 60889EC2
+P 3750 1825
+F 0 "#PWR03" H 3750 1675 50  0001 C CNN
+F 1 "+5V" V 3765 1953 50  0000 L CNN
+F 2 "" H 3750 1825 50  0001 C CNN
+F 3 "" H 3750 1825 50  0001 C CNN
+	1    3750 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60889EC8
+P 4000 1925
+F 0 "R5" V 4100 2025 50  0000 C CNN
+F 1 "R 50k" V 4100 1825 50  0000 C CNN
+F 2 "" V 3930 1925 50  0001 C CNN
+F 3 "~" H 4000 1925 50  0001 C CNN
+	1    4000 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60889ECE
+P 4000 1725
+F 0 "R2" V 3900 1825 50  0000 C CNN
+F 1 "R 50k" V 3900 1625 50  0000 C CNN
+F 2 "" V 3930 1725 50  0001 C CNN
+F 3 "~" H 4000 1725 50  0001 C CNN
+	1    4000 1725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 1925 4150 1925
+Wire Wire Line
+	4500 1725 4150 1725
+Wire Wire Line
+	3850 1725 3850 1825
+Wire Wire Line
+	3750 1825 3850 1825
+Connection ~ 3850 1825
+Wire Wire Line
+	3850 1825 3850 1925
+Text GLabel 5250 1275 2    50   Input ~ 0
+ecdr_clock_2
+Text GLabel 5250 2275 2    50   Input ~ 0
+ecdr_data_2
+Wire Wire Line
+	4500 1925 4500 2275
+Wire Wire Line
+	4500 2275 5250 2275
+Connection ~ 4500 1925
+Wire Wire Line
+	5250 1275 4500 1275
+Wire Wire Line
+	4500 1275 4500 1725
+Connection ~ 4500 1725
+$Comp
+L Device:Rotary_Encoder_Switch SW3
+U 1 1 6088DB84
+P 7150 1825
+F 0 "SW3" H 7150 2192 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 7300 2075 50  0000 C CNN
+F 2 "" H 7000 1985 50  0001 C CNN
+F 3 "~" H 7150 2085 50  0001 C CNN
+	1    7150 1825
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 1725 2    50   Input ~ 0
+ecdr_sw_3
+Wire Wire Line
+	7600 1725 7450 1725
+$Comp
+L power:GND #PWR09
+U 1 1 6088DB8C
+P 7600 1925
+F 0 "#PWR09" H 7600 1675 50  0001 C CNN
+F 1 "GND" V 7605 1797 50  0000 R CNN
+F 2 "" H 7600 1925 50  0001 C CNN
+F 3 "" H 7600 1925 50  0001 C CNN
+	1    7600 1925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 1925 7450 1925
+$Comp
+L power:GND #PWR06
+U 1 1 6088DB93
+P 6750 1825
+F 0 "#PWR06" H 6750 1575 50  0001 C CNN
+F 1 "GND" V 6755 1697 50  0000 R CNN
+F 2 "" H 6750 1825 50  0001 C CNN
+F 3 "" H 6750 1825 50  0001 C CNN
+	1    6750 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 1825 6850 1825
+$Comp
+L power:+5V #PWR05
+U 1 1 6088DB9A
+P 6100 1825
+F 0 "#PWR05" H 6100 1675 50  0001 C CNN
+F 1 "+5V" V 6115 1953 50  0000 L CNN
+F 2 "" H 6100 1825 50  0001 C CNN
+F 3 "" H 6100 1825 50  0001 C CNN
+	1    6100 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6088DBA0
+P 6350 1925
+F 0 "R6" V 6450 2025 50  0000 C CNN
+F 1 "R 50k" V 6450 1825 50  0000 C CNN
+F 2 "" V 6280 1925 50  0001 C CNN
+F 3 "~" H 6350 1925 50  0001 C CNN
+	1    6350 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6088DBA6
+P 6350 1725
+F 0 "R3" V 6250 1825 50  0000 C CNN
+F 1 "R 50k" V 6250 1625 50  0000 C CNN
+F 2 "" V 6280 1725 50  0001 C CNN
+F 3 "~" H 6350 1725 50  0001 C CNN
+	1    6350 1725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 1925 6500 1925
+Wire Wire Line
+	6850 1725 6500 1725
+Wire Wire Line
+	6200 1725 6200 1825
+Wire Wire Line
+	6100 1825 6200 1825
+Connection ~ 6200 1825
+Wire Wire Line
+	6200 1825 6200 1925
+Text GLabel 7600 1275 2    50   Input ~ 0
+ecdr_clock_3
+Text GLabel 7600 2275 2    50   Input ~ 0
+ecdr_data_3
+Wire Wire Line
+	6850 1925 6850 2275
+Wire Wire Line
+	6850 2275 7600 2275
+Connection ~ 6850 1925
+Wire Wire Line
+	7600 1275 6850 1275
+Wire Wire Line
+	6850 1275 6850 1725
+Connection ~ 6850 1725
+$Comp
+L Device:LED D1
+U 1 1 608A4180
+P 2250 2625
+F 0 "D1" H 2243 2841 50  0000 C CNN
+F 1 "LED" H 2243 2750 50  0000 C CNN
+F 2 "" H 2250 2625 50  0001 C CNN
+F 3 "~" H 2250 2625 50  0001 C CNN
+	1    2250 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 608A5D9C
+P 4600 2625
+F 0 "D2" H 4593 2841 50  0000 C CNN
+F 1 "LED" H 4593 2750 50  0000 C CNN
+F 2 "" H 4600 2625 50  0001 C CNN
+F 3 "~" H 4600 2625 50  0001 C CNN
+	1    4600 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 608A70C6
+P 6950 2625
+F 0 "D3" H 6943 2841 50  0000 C CNN
+F 1 "LED" H 6943 2750 50  0000 C CNN
+F 2 "" H 6950 2625 50  0001 C CNN
+F 3 "~" H 6950 2625 50  0001 C CNN
+	1    6950 2625
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 2625 2    50   Input ~ 0
+ecdr_led_3
+Text GLabel 5250 2625 2    50   Input ~ 0
+ecdr_led_2
+Text GLabel 2900 2625 2    50   Input ~ 0
+ecdr_led_1
+$Comp
+L Device:R R7
+U 1 1 608BA896
+P 2650 2625
+F 0 "R7" V 2750 2725 50  0000 C CNN
+F 1 "R 220" V 2750 2525 50  0000 C CNN
+F 2 "" V 2580 2625 50  0001 C CNN
+F 3 "~" H 2650 2625 50  0001 C CNN
+	1    2650 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 608BB668
+P 5000 2625
+F 0 "R8" V 5100 2725 50  0000 C CNN
+F 1 "R 220" V 5100 2525 50  0000 C CNN
+F 2 "" V 4930 2625 50  0001 C CNN
+F 3 "~" H 5000 2625 50  0001 C CNN
+	1    5000 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 608BBEFF
+P 7350 2625
+F 0 "R9" V 7450 2725 50  0000 C CNN
+F 1 "R 220" V 7450 2525 50  0000 C CNN
+F 2 "" V 7280 2625 50  0001 C CNN
+F 3 "~" H 7350 2625 50  0001 C CNN
+	1    7350 2625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2625 2500 2625
+Wire Wire Line
+	2800 2625 2900 2625
+Wire Wire Line
+	4750 2625 4850 2625
+Wire Wire Line
+	5150 2625 5250 2625
+Wire Wire Line
+	7100 2625 7200 2625
+Wire Wire Line
+	7500 2625 7600 2625
+Wire Wire Line
+	6800 2625 6800 2875
+Wire Wire Line
+	6800 2875 4450 2875
+Wire Wire Line
+	4450 2875 4450 2625
+Wire Wire Line
+	4450 2875 2100 2875
+Wire Wire Line
+	2100 2875 2100 2625
+Connection ~ 4450 2875
+$Comp
+L power:GND #PWR010
+U 1 1 608D9724
+P 2100 2875
+F 0 "#PWR010" H 2100 2625 50  0001 C CNN
+F 1 "GND" H 2105 2702 50  0000 C CNN
+F 2 "" H 2100 2875 50  0001 C CNN
+F 3 "" H 2100 2875 50  0001 C CNN
+	1    2100 2875
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2875
+$Comp
 L power:+5V #PWR014
 U 1 1 608F812A
 P 2725 6625
@@ -24,6 +439,93 @@ F 3 "" H 2725 6625 50  0001 C CNN
 	1    2725 6625
 	1    0    0    -1  
 $EndComp
+Text GLabel 6550 4300 0    50   Input ~ 0
+Screen_A
+Text GLabel 6550 4400 0    50   Input ~ 0
+Screen_B
+Text GLabel 6550 4500 0    50   Input ~ 0
+Screen_C
+Text GLabel 6550 4600 0    50   Input ~ 0
+Screen_D
+Text GLabel 6550 4700 0    50   Input ~ 0
+Screen_E
+Text GLabel 6550 4800 0    50   Input ~ 0
+Screen_F
+Text GLabel 6550 4900 0    50   Input ~ 0
+Screen_G
+Text GLabel 6550 5000 0    50   Input ~ 0
+Screen_DP
+Text GLabel 8600 4700 2    50   Input ~ 0
+Screen_CA1
+Text GLabel 8600 4900 2    50   Input ~ 0
+Screen_CA2
+$Comp
+L Device:R R17
+U 1 1 6095D5F7
+P 8350 4700
+F 0 "R17" V 8250 4600 50  0000 C CNN
+F 1 "R" V 8250 4750 50  0000 C CNN
+F 2 "" V 8280 4700 50  0001 C CNN
+F 3 "~" H 8350 4700 50  0001 C CNN
+	1    8350 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 6095DAC5
+P 8350 4900
+F 0 "R18" V 8250 4800 50  0000 C CNN
+F 1 "R" V 8250 4950 50  0000 C CNN
+F 2 "" V 8280 4900 50  0001 C CNN
+F 3 "~" H 8350 4900 50  0001 C CNN
+	1    8350 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 6095DD92
+P 8350 5100
+F 0 "R19" V 8250 5000 50  0000 C CNN
+F 1 "R" V 8250 5150 50  0000 C CNN
+F 2 "" V 8280 5100 50  0001 C CNN
+F 3 "~" H 8350 5100 50  0001 C CNN
+	1    8350 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 4700 7900 4700
+Wire Wire Line
+	7900 4700 7900 4800
+Wire Wire Line
+	7900 5000 7900 5100
+Wire Wire Line
+	7900 5100 8200 5100
+Wire Wire Line
+	7900 4900 8200 4900
+Wire Wire Line
+	8500 4900 8600 4900
+Wire Wire Line
+	8600 4700 8500 4700
+Wire Wire Line
+	8600 5100 8500 5100
+Text GLabel 8600 5100 2    50   Input ~ 0
+Screen_CA3
+Wire Wire Line
+	6800 4300 6550 4300
+Wire Wire Line
+	6800 4400 6550 4400
+Wire Wire Line
+	6800 4500 6550 4500
+Wire Wire Line
+	6800 4600 6550 4600
+Wire Wire Line
+	6800 4700 6550 4700
+Wire Wire Line
+	6800 4800 6550 4800
+Wire Wire Line
+	6800 4900 6550 4900
+Wire Wire Line
+	6800 5000 6550 5000
 $Comp
 L power:GND #PWR013
 U 1 1 60948F1B
@@ -1365,6 +1867,188 @@ Wire Wire Line
 Wire Wire Line
 	6925 10575 6925 10375
 Connection ~ 6925 10375
+$Comp
+L 00_Mes_symboles:SW_Rotary8-SW_Rotary_8 SW4
+U 1 1 6010C0FC
+P 2425 4850
+F 0 "SW4" H 2325 5631 50  0000 C CNN
+F 1 "SW_Rotary8" H 2325 5540 50  0000 C CNN
+F 2 "" H 2225 5550 50  0001 C CNN
+F 3 "" H 2225 5550 50  0001 C CNN
+	1    2425 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1625 4850 0    50   Input ~ 0
+Selector_pin
+$Comp
+L Device:R R10
+U 1 1 60115185
+P 3075 4250
+F 0 "R10" V 3282 4250 50  0000 C CNN
+F 1 "2k" V 3191 4250 50  0000 C CNN
+F 2 "" V 3005 4250 50  0001 C CNN
+F 3 "~" H 3075 4250 50  0001 C CNN
+	1    3075 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 60118A86
+P 3375 4350
+F 0 "R11" V 3582 4350 50  0000 C CNN
+F 1 "2k" V 3491 4350 50  0000 C CNN
+F 2 "" V 3305 4350 50  0001 C CNN
+F 3 "~" H 3375 4350 50  0001 C CNN
+	1    3375 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2825 4250 2925 4250
+Wire Wire Line
+	3225 4250 3225 4350
+Wire Wire Line
+	3225 4350 2825 4350
+Connection ~ 3225 4350
+Wire Wire Line
+	3525 4350 3525 4450
+Wire Wire Line
+	3525 4450 2825 4450
+$Comp
+L power:+5V #PWR011
+U 1 1 6014CF67
+P 2925 3900
+F 0 "#PWR011" H 2925 3750 50  0001 C CNN
+F 1 "+5V" H 2940 4073 50  0000 C CNN
+F 2 "" H 2925 3900 50  0001 C CNN
+F 3 "" H 2925 3900 50  0001 C CNN
+	1    2925 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 3900 2925 4250
+Connection ~ 2925 4250
+$Comp
+L Device:R R12
+U 1 1 6016C71F
+P 3675 4450
+F 0 "R12" V 3882 4450 50  0000 C CNN
+F 1 "2k" V 3791 4450 50  0000 C CNN
+F 2 "" V 3605 4450 50  0001 C CNN
+F 3 "~" H 3675 4450 50  0001 C CNN
+	1    3675 4450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3525 4450
+Wire Wire Line
+	3825 4450 3825 4550
+Wire Wire Line
+	3825 4550 2825 4550
+$Comp
+L Device:R R13
+U 1 1 601768FB
+P 3975 4550
+F 0 "R13" V 4182 4550 50  0000 C CNN
+F 1 "2k" V 4091 4550 50  0000 C CNN
+F 2 "" V 3905 4550 50  0001 C CNN
+F 3 "~" H 3975 4550 50  0001 C CNN
+	1    3975 4550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3825 4550
+Wire Wire Line
+	4125 4550 4125 4650
+Wire Wire Line
+	4125 4650 2825 4650
+$Comp
+L Device:R R14
+U 1 1 60180C61
+P 4275 4650
+F 0 "R14" V 4482 4650 50  0000 C CNN
+F 1 "2k" V 4391 4650 50  0000 C CNN
+F 2 "" V 4205 4650 50  0001 C CNN
+F 3 "~" H 4275 4650 50  0001 C CNN
+	1    4275 4650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4125 4650
+Wire Wire Line
+	4425 4650 4425 4750
+Wire Wire Line
+	2825 4750 4425 4750
+$Comp
+L Device:R R15
+U 1 1 601FB5A3
+P 4575 4750
+F 0 "R15" V 4782 4750 50  0000 C CNN
+F 1 "2k" V 4691 4750 50  0000 C CNN
+F 2 "" V 4505 4750 50  0001 C CNN
+F 3 "~" H 4575 4750 50  0001 C CNN
+	1    4575 4750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4425 4750
+Wire Wire Line
+	4725 4750 4725 4950
+Wire Wire Line
+	2825 4950 4725 4950
+$Comp
+L Device:R R16
+U 1 1 60212C10
+P 4875 4950
+F 0 "R16" V 5082 4950 50  0000 C CNN
+F 1 "2k" V 4991 4950 50  0000 C CNN
+F 2 "" V 4805 4950 50  0001 C CNN
+F 3 "~" H 4875 4950 50  0001 C CNN
+	1    4875 4950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4725 4950
+Wire Wire Line
+	5025 4950 5025 5050
+Wire Wire Line
+	1825 4850 1625 4850
+$Comp
+L power:GND #PWR012
+U 1 1 60266AF6
+P 2925 5100
+F 0 "#PWR012" H 2925 4850 50  0001 C CNN
+F 1 "GND" H 2930 4927 50  0000 C CNN
+F 2 "" H 2925 5100 50  0001 C CNN
+F 3 "" H 2925 5100 50  0001 C CNN
+	1    2925 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 5050 2925 5050
+Wire Wire Line
+	2925 5050 2925 5100
+Connection ~ 2925 5050
+Wire Wire Line
+	2925 5050 5025 5050
+Wire Notes Line
+	925  675  8300 675 
+Wire Notes Line
+	8300 675  8300 3300
+Wire Notes Line
+	8300 3300 925  3300
+Wire Notes Line
+	925  3300 925  675 
+Wire Notes Line
+	925  3425 925  5550
+Wire Notes Line
+	925  5550 5325 5550
+Wire Notes Line
+	5325 5550 5325 3425
+Wire Notes Line
+	5325 3425 925  3425
+Wire Notes Line
+	5900 3425 9375 3425
+Wire Notes Line
+	9375 3425 9375 5550
+Wire Notes Line
+	9375 5550 5900 5550
+Wire Notes Line
+	5900 5550 5900 3425
 Wire Notes Line
 	925  5975 9900 5975
 Wire Notes Line
@@ -1373,6 +2057,12 @@ Wire Notes Line
 	9900 11050 925  11050
 Wire Notes Line
 	925  11050 925  5975
+Text Notes 1250 975  0    50   ~ 0
+Encoders & LED
+Text Notes 1375 3850 0    50   ~ 0
+Selector (Voltage divider)
+Text Notes 6325 3775 0    50   ~ 0
+Screen
 Text Notes 1350 6275 0    50   ~ 0
 Gate OUT
 $EndSCHEMATC
