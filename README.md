@@ -64,7 +64,7 @@
   FUNCTIONS :
   
 
-    Bouttons =
+    Buttons =
         -Step on/off
         -Shift + step button = step jump
         -Fill
@@ -84,7 +84,7 @@
         -Page navigation + push = Play mode
     
 
-    Selecter =
+    Selector =
         -Part choice
 
     Play mode =
