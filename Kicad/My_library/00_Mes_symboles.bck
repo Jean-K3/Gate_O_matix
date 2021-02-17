@@ -12,4 +12,10 @@ K audio jack receptacle mono phone headphone TS connector
 F ~
 $ENDCMP
 #
+$CMP MCD-2831A
+D Generic connector, single row, 01x12
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library

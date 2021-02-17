@@ -1,4 +1,4 @@
-(module LED_5.0mm (layer F.Cu) (tedit 6019F49A)
+(module LED_5.0mm (layer F.Cu) (tedit 602D27E6)
   (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
   (tags "LED diameter 5.0mm 2 pins")
   (fp_text reference REF** (at 1.27 -3.96) (layer F.SilkS)

@@ -1,4 +1,4 @@
-(module "SW_PUSH-12mm(deported)" (layer F.Cu) (tedit 602BF3D2)
+(module "SW_PUSH-12mm(deported)" (layer F.Cu) (tedit 602D27B1)
   (descr "SW PUSH 12mm https://www.e-switch.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
   (tags "tact sw push 12mm")
   (fp_text reference REF** (at 6.08 -4.66) (layer F.SilkS)
@@ -38,5 +38,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${MES_MODELES_3D}/Switch/TactSwitch.stp
+    (offset (xyz 6.5 -2.5 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
