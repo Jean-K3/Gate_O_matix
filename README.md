@@ -32,16 +32,10 @@
       
     SCHEMATIC
     
-      -Main_Board : Assigner empreintes Encoder, Selecter & Screen
       -Find good resistor value for green & blue LED
       -Find good value resistor for screen
       -Drawing CPU_Board
-      -Check for errors
-      
-     OTHER
-     
-      -Stop speaking frenglish
-      -Make pancake
+
 
   DONE :
 
