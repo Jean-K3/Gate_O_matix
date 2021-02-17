@@ -1,6 +1,6 @@
   Gate sequencer by Plop
 
-  Update 08 JAN 2021
+  Update 17 FEB 2021
 
   64 step sequencer, 8 part compatible eurorack
 
@@ -68,16 +68,23 @@
   
 
     Bouttons =
+        -Step on/off
         -Shift + step button = step jump
+        -Fill
         -Fill + shift = Clear
+        -Copy/Paste
         -Copy/Paste + shift = Save
+        -Pause/Play
         -Pause/Play + shift = Stop
     
 
     Encoders =
+        -Tempo
         -Tempo + push = clock divider
+        -Gate length
         -Gate length + push = Number of step
-        -Page navigation + push = Forward/Backward/Random
+        -Page navigation
+        -Page navigation + push = Play mode
     
 
     Selecter =
