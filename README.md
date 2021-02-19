@@ -2,9 +2,7 @@
 
   Update 17 FEB 2021
 
-  64 step sequencer, 8 parts
-  Multiple play mode
-  Eurorack format
+  64 step sequencer, 8 parts, multiple play mode, eurorack format.
 
   ________________________________________________________________________________________________
   ________________________________________________________________________________________________
